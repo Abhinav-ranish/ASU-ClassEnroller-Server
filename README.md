@@ -7,7 +7,7 @@
   <br>
 </h1>
 
-<h4 align="center">An automated class enroller system for Arizona State University. Build with node.js  <a href="https://nodejs.org/en" target="_blank">Node.js</a> selenium (python) <a href="https://www.python.org/" target="_blank">Python</a>.</h4>
+<h4 align="center">An automated class enroller system for Arizona State University. Build with  <a href="https://nodejs.org/en" target="_blank">Node.js</a> and selenium (python) <a href="https://www.python.org/" target="_blank">Python</a>.</h4>
 
 <p align="center">
   <a href="https://www.paypal.me/aranish911">
