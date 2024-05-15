@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!-- install live server in vscode -->
+<!-- validator.w3.org -->
+<head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' http://localhost:3000 'unsafe-inline'">
+
+    <meta charset="UTF-8">
+    <meta name = "author" content="Abhinav Ranish">
+    <meta name = "description" content="ASU Class Scraper">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASU Form</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+
+</head>
+
+<header>
+    <h2>ASU Class Scraper</h2>
+    <hr>
+</header>
+
+<body><br><br><br><br><br><br>
+    <form id="myForm">
+        <label for="inputData1">Input Duo Push: &LeftAngleBracket;Beta Testing&RightAngleBracket;</label><br>
+        <input type="password" id="inputData1" name="inputData1"> <br>
+
+        <label for="inputData">Class Number:</label><br>
+       
+        <input type="text" id="inputData" name="inputData"> <br> <br>
+        <button type="submit">Submit</button>
+        <div id="result"></div>
+        <br>
+    </form>
+    
+</body>
+
+<footer>
+    <p>Created by Abhinav Ranish</p>
+    <p>Source code available at <a href="https://www.github.com/abhinav-ranish/">Github</a></p>
+</footer>
+
+
+<script>
+    document.getElementById('myForm').addEventListener('submit', async (event) => {
+        event.preventDefault(); // Prevent the form from submitting traditionally
+        const formData = new FormData(event.target); // Get form data
+        const classNumber = formData.get('inputData'); // Get the value of 'inputData' field
+        const classSearch = formData.get('inputData1'); // Get the value of 'inputData1' field
+        // Send data to server.js using AJAX
+        try {
+            const response = await fetch('/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ classNumber, classSearch})
+            });
+            const data = await response.json();
+            document.getElementById('result').innerText = `${data.openSeats} seats available`;
+        } catch (error) {
+            console.error('Error:', error);
+        }
+    });
+</script>
+
+    </html>
