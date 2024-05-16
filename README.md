@@ -7,7 +7,9 @@
   <br>
 </h1>
 
-<h4 align="center">An automated class enroller system for Arizona State University. Build with  <a href="https://nodejs.org/en" target="_blank">Node.js</a> and selenium (python) <a href="https://www.python.org/" target="_blank">Python</a>.</h4>
+<h4 align="center">An automated class enroller webiste for Arizona State University. Build with  <a href="https://nodejs.org/en" target="_blank">Node.js</a> and selenium (python) <a href="https://www.python.org/" target="_blank">Python</a>.</h4>
+
+<h4> Use the Python one for locally hosting. It's so much more convenient <a href="https://github.com/Abhinav-ranish/Selenium-Class-Scraper" target="_blank">Class Enroller</a> </h4>
 
 <p align="center">
   <a href="https://www.paypal.me/aranish911">
