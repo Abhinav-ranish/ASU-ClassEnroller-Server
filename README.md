@@ -38,7 +38,7 @@
 
 ## How to Use
 <h4 align="center"> Use the Python one for locally hosting. It's so much more convenient <a href="https://github.com/Abhinav-ranish/Selenium-Class-Scraper" target="_blank">Class Enroller</a> </h4>
-Also, the Python one is cross platform.
+Also, the Python one is cross-platform. <br>
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download) installed on your computer. From your command line:
 
 ```bash
