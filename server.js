@@ -98,8 +98,8 @@ async function recheckUrl(classNumber) {
     try {
         const result = await scrapeData(classNumber);
         if (result === 0) {
-            recheckCount++;
-            if (recheckCount < 1000) {
+            recheckCount++; //comment this out if u wanna keep on rechecking add // infront of recheckCount++
+            if (recheckCount < 1000) { //2 days worth of rechecking as long as the server is running
             setTimeout(() => {
                 recheckUrl(classNumber);
             }, 600000); // 10 minutes wait time
