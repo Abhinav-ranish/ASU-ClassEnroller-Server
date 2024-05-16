@@ -9,7 +9,7 @@
 
 <h4 align="center">An automated class enroller webiste for Arizona State University. Build with  <a href="https://nodejs.org/en" target="_blank">Node.js</a> and selenium (python) <a href="https://www.python.org/" target="_blank">Python</a>.</h4>
 
-<h4> Use the Python one for locally hosting. It's so much more convenient <a href="https://github.com/Abhinav-ranish/Selenium-Class-Scraper" target="_blank">Class Enroller</a> </h4>
+<h4 align="center"> Use the Python one for locally hosting. It's so much more convenient <a href="https://github.com/Abhinav-ranish/Selenium-Class-Scraper" target="_blank">Class Enroller</a> </h4>
 
 <p align="center">
   <a href="https://www.paypal.me/aranish911">
@@ -37,7 +37,8 @@
 * Visit [AutoLogin](https://github.com/Abhinav-ranish/ASU-Autologin) for more documentation
 
 ## How to Use
-
+<h4 align="center"> Use the Python one for locally hosting. It's so much more convenient <a href="https://github.com/Abhinav-ranish/Selenium-Class-Scraper" target="_blank">Class Enroller</a> </h4>
+Also, the Python one is cross platform.
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download) installed on your computer. From your command line:
 
 ```bash
