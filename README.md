@@ -28,7 +28,7 @@
 
 ## Key Features
 
-* Puppeteer scrapes ASU class search and if the class is open runs the autologin sequence if not it waits for 10 minutes and then rechecks.
+* Puppeteer scrapes ASU class search and if the class is open runs the autologin sequence if not it waits for 10 minutes and then rechecks (hopefully).
 * Duo Push (Passcode) - Will need a new OTP every re-run. To Bypass this you will have to turn off 2fa. (Or Look into Session Cache Stuff)
 * Windows only (Auto login is an exe)
 * If you wanna use it for Linux/Mac Autologin script is in /autologin/autoopener.py change the executable from .... .exe to python autologin//autoopener.py
