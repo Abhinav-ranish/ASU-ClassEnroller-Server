@@ -29,6 +29,7 @@
 [![screenshot](https://img.youtube.com/vi/SxLpP7ES3-o/0.jpg)](https://youtu.be/SxLpP7ES3-o)
 
 ## Key Features
+<h4 align="center"> Use the Python one for locally hosting. It's so much more convenient <a href="https://github.com/Abhinav-ranish/Selenium-ClassEnroller" target="_blank">Class Enroller</a> </h4>
 
 * Puppeteer scrapes ASU class search and if the class is open runs the autologin sequence if not it waits for 10 minutes and then rechecks (hopefully).
 * Duo Push (Passcode) - Will need a new OTP every re-run. To Bypass this you will have to turn off 2fa. (Or Look into Session Cache Stuff)
